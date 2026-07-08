@@ -8,7 +8,11 @@ These collection of notebook was prepared for our SIAM Annual Meeting Minitutori
 
 ## Notebooks
 
-1. Inverse problem prototype: An illustrative example of an ill-posed inverse problem. [(Colab)[https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/01_inverseProblemPrototype.ipynb]]
+1. **Inverse problem prototype**: An illustrative example of an ill-posed inverse problem. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/01_inverseProblemPrototype.ipynb)
+2. **Unconstrained Minimization**: This notebook illustrates the minimization of a non-quadratic energy functional using Netwon Method. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/02_unconstrainedMinimization.ipynb)
+3. **Deterministic Inverse Problem**: This notebook illustrates the use of FEniCS for solving an inverse problem for the coefficient field of a Poisson equation, using the inexact Newton CG method. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/03_Poisson_INCG.ipynb)
+4. **Gaussian Priors in infinite dimensions**: This notebook shows how to construct PDE-based priors that lead to well-posed Bayesian inverse problems in infinite dimesions. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/04_GaussianPriors.ipynb)
+5. **Linearized Bayesian Inverse Problem**: This notebook illustrates how to solve a non-linear parameter inversion for the Poisson equation in a Bayesian setting using hIPPYlib. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/05_PoissonBayesian.ipynb)
 
 ## Useful References
 
@@ -49,6 +53,8 @@ These collection of notebook was prepared for our SIAM Annual Meeting Minitutori
 
 - A. Logg, K. A. Mardal, and G. Wells, *Automated solution of differential equations by the finite element method: The FEniCS
   book*, vol. 84, Springer Science \& Business Media, 2012.
+
+- H. P. Langtangen, A. Logg, *Solving PDEs in Python: The FEniCS Tutorial Volume I*, Springer, 2017.
 
 ### Probabilistic approach to inverse problems:
 
