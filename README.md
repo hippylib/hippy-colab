@@ -2,9 +2,13 @@
 
 Selected [hIPPYlib](https://hippylib.github.io/) notebooks on Google Colab.
 
-hIPPYlib implements state-of-the-art scalable adjoint-based algorithms for PDE-based deterministic and Bayesian inverse problems. It builds on [FEniCS](https://fenicsproject.org/) for the discretization of the PDE and on [PETSc]() for scalable and efficient linear algebra operations and solvers.
+hIPPYlib implements state-of-the-art scalable adjoint-based algorithms for PDE-based deterministic and Bayesian inverse problems. It builds on [FEniCS](https://fenicsproject.org/) for the discretization of the PDE and on [PETSc](https://petsc.org/release/) for scalable and efficient linear algebra operations and solvers.
 
 These collection of notebook was prepared for our SIAM Annual Meeting Minitutorial on [Introduction to Bayesian Inverse Problems Governed by Partial Differential Equations (PDEs): A Hands-on Tutorial using hIPPYlib](https://meetings.siam.org/sess/dsp_talk.cfm?p=160239).
+
+## Notebooks
+
+1. Inverse problem prototype: An illustrative example of an ill-posed inverse problem. [(Colab)[https://colab.research.google.com/github/hippylib/hippy-colab/blob/main/01_inverseProblemPrototype.ipynb]]
 
 ## Useful References
 
@@ -15,6 +19,8 @@ These collection of notebook was prepared for our SIAM Annual Meeting Minitutori
 - Curtis R. Vogel, *Computational Methods for Inverse Problems*, SIAM, 2002.
 
 - Guy Chavent, *Nonlinear Least Squares for Inverse Problems*, Springer, 2009.
+
+- Omar Ghattas and Karen Willcox, *Learning physics-based models from data: perspectives from inverse problems and model reduction*, Acta Numerical, 2021.
 
 
 ### Numerical optimization background:
@@ -30,6 +36,8 @@ These collection of notebook was prepared for our SIAM Annual Meeting Minitutori
 - Fredi Tröltzsch, *Optimal Control of Partial Differential Equations: Theory, Methods and Applications*, Graduate Studies in Mathematics Vol.~112, AMS, 2010.
 
 - M. Hinze, R. Pinnau, M. Ulbich, and S. Ulbrich, *Optimization with PDE constraints*, Springer, 2009.
+
+- Alen Alexanderian, *Computational Inverse Problems Governed by PDEs*, SIAM 2026.
 
 ### Finite element background and FEniCS:
   
